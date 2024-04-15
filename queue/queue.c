@@ -5,6 +5,7 @@
 int queue[MAX];
 int front = -1;
 int rear = -1;
+TMKC;
 
 bool isFull() {
  return front == MAX - 1;
